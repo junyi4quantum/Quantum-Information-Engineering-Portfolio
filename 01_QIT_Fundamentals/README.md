@@ -10,17 +10,23 @@ Relevance to Research Proposal
 
 This exercise proves the theoretical prerequisite skills for nearly every topic, especially:
 
-Topic 2 (Entanglement-Assisted ZNE): Calculating the partial trace is the first step in determining the reduced density matrix of a subsystem, which is required for calculating entanglement entropy and verifying the PTT (Peres-Horodecki) criterion.
+Topic 2 (Entanglement-Assisted ZNE): Calculating the partial trace ($\text{Tr}_A \rho_{AB}$) is the first step in determining the reduced density matrix of a subsystem, which is required for calculating entanglement entropy and verifying the PTT (Peres-Horodecki) criterion.
 
-Topic 6 (QIT-Informed Crosstalk Mitigation): The entire framework of QPT and noise modeling relies on the density matrix formalism ($\rho$).
+Topic 6 (QIT-Informed Crosstalk Mitigation): The entire framework of Quantum Process Tomography (QPT) and noise modeling relies on the density matrix formalism ($\rho$).
 
 Key Implementations
 
-Conversion between State Vector ($|\psi\rangle$) and Density Matrix ($\rho$).
+Conversion between State Vector |ψ⟩ and Density Matrix ρ.
 
-Calculation of the Partial Trace ($\text{Tr}_A \rho_{AB}$).
+Mathematical Definition: $\rho = |\psi\rangle\langle\psi|$
 
-Verification of state purity using the Purity Index ($\text{Tr}(\rho^2)$).
+Calculation of the Partial Trace (Tr_A ρ_AB).
+
+Goal: Compute the reduced state of subsystem B after tracing out subsystem A.
+
+Verification of state purity using the Purity Index.
+
+Mathematical Definition: Purity = Tr(ρ²). (A pure state has Purity = 1).
 
 Dependencies
 
