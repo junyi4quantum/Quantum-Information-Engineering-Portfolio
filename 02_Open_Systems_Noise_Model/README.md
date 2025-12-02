@@ -1,4 +1,4 @@
-#**02. Lindblad Solver for Superconducting Qubit Dynamics**
+**#02. Lindblad Solver for Superconducting Qubit Dynamics**
 
 **Project Goal**
 
