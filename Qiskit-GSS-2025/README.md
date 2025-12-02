@@ -34,7 +34,7 @@ The five lab exercises cover a progression from basic quantum operations to stat
 
 ## 🔬 Deep Dive: Technical Summary
 
-For a detailed, technical breakdown of the mathematical formalism and implementation methodology used in these labs, please see the dedicated [PROJECT_SUMMARY.md](Qiskit-GSS-2025/PROJECT_SUMMARY.md) file.
+For a detailed, technical breakdown of the mathematical formalism and implementation methodology used in these labs, please see the dedicated [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) file.
 
 | Tool | Purpose |
 | --- | --- |
