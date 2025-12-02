@@ -9,9 +9,7 @@ This document provides a technical deep dive into the core concepts, mathematica
 The Greenberger-Horne-Zeilinger (GHZ) state is a maximally entangled state of $N$ qubits, often used as a benchmark.
 
 The GHZ state is defined as:
-$$
 |\text{GHZ}_N\rangle = \frac{1}{\sqrt{2}} \left( |0\rangle^{\otimes N} + |1\rangle^{\otimes N} \right)
-$$
 
 *   **Implementation:** The state is created by applying a Hadamard gate ($H$) to the first qubit to create a superposition, followed by a sequence of Controlled-NOT (CNOT) gates between adjacent qubits to propagate the entanglement across the register.
 *   **Hardware Execution:** The lab required utilizing the **Qiskit Runtime Service** to select a target quantum processing unit (QPU) and submit the transpiled circuit for real-time execution.
