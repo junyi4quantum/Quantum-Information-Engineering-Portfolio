@@ -14,17 +14,17 @@ The goal is to simulate and plot the decay of a single qubit's excited state pro
 
 This exercise proves the theoretical and computational prerequisite skills for the most advanced hardware-focused topics:
 
-Topic 6 (QIT-Informed Crosstalk Mitigation / QOC): Any Quantum Optimal Control (QOC) pulse must be simulated under realistic Lindblad noise. This project proves the ability to set up the dynamics model needed for QOC optimization.
+ Topic 6 (QIT-Informed Crosstalk Mitigation / QOC): Any Quantum Optimal Control (QOC) pulse must be simulated under realistic Lindblad noise. This project proves the ability to set up the dynamics model needed for QOC optimization.
 
-Topic 2 (Entanglement-Assisted ZNE): Understanding the exponential nature of $T_1$ and $T_2$ decay is necessary to formulate and benchmark effective error mitigation strategies like Zero-Noise Extrapolation (ZNE).
+ Topic 2 (Entanglement-Assisted ZNE): Understanding the exponential nature of $T_1$ and $T_2$ decay is necessary to formulate and benchmark effective error mitigation strategies like Zero-Noise Extrapolation (ZNE).
 
 **Key Implementations**
 
-Construction of the Hamiltonian ($H$) and the Lindblad Collapse Operators ($L_k$).
+1. Construction of the Hamiltonian ($H$) and the Lindblad Collapse Operators ($L_k$).
 
-Numerical solution of the Lindblad Master Equation using QuTiP's mesolve.
+2. Numerical solution of the Lindblad Master Equation using QuTiP's mesolve.
 
-Visualization of the decay curves for the excited state population $P_1(t)$.
+3. Visualization of the decay curves for the excited state population $P_1(t)$.
 
 **Dependencies**
 
